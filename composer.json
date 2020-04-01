@@ -1,5 +1,5 @@
 {
-  "name": "phenx/php-font-lib",
+  "name": "jambagecom/base-font",
   "type": "typo3-cms-extension",
   "description": "This provides the PHP Font Lib.",
   "keywords": [
@@ -26,18 +26,17 @@
     "GPL-2.0-or-later"
   ],
   "require": {
-    "typo3/cms-core": ">=6.2.0,<9.99.0"
+    "typo3/cms-core": ">=6.2.0,<9.99.0",
+    "phenx/php-font-lib": ">=0.3.1,<1"
   },
-  "autoload": {
-    "psr-4": {
-      "FontLib\\": "Vendor/php-font-lib/src/FontLib"
+  "repositories": [
+    {
+        "type": "path",
+        "url": "php-font-lib"
     }
-  },
-  "config": {
-    "bin-dir": "bin"
-  },
+  ],
   "replace": {
-    "phenx/php-font-lib": "self.version",
+    "jambagecom/base-font": "self.version",
     "typo3-ter/base-font": "self.version"
   },
   "extra": {
