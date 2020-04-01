@@ -32,7 +32,7 @@
   "repositories": [
     {
         "type": "path",
-        "url": "php-font-lib"
+        "url": "Vendor/php-font-lib"
     }
   ],
   "replace": {
