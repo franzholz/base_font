@@ -1,4 +1,4 @@
-php-font-lib 0.5.1
+php-font-lib 0.5.4
 
 
 
