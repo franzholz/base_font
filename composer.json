@@ -26,15 +26,13 @@
     "GPL-2.0-or-later"
   ],
   "require": {
-    "typo3/cms-core": "^9.5 || ^10.4 || ^11.5",
-    "phenx/php-font-lib": ">=0.3.1,<1"
+    "typo3/cms-core": "^9.5 || ^10.4 || ^11.5"
   },
-  "repositories": [
-    {
-        "type": "path",
-        "url": "Vendor/php-font-lib"
+  "autoload": {
+    "psr-4": {
+        "FontLib\\": "Vendor/php-font-lib/src/FontLib"
     }
-  ],
+  },
   "replace": {
     "typo3-ter/base-font": "self.version"
   },
