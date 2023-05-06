@@ -6,7 +6,7 @@
 
 $EM_CONF[$_EXTKEY] = [
     'title' => 'Font Library',
-    'description' => 'This provides the PHP Font Lib (php-font-lib].',
+    'description' => 'This provides the dompdf PHP Font Lib (php-font-lib].',
     'category' => 'misc',
     'version' => '0.5.5',
     'state' => 'stable',
@@ -18,7 +18,7 @@ $EM_CONF[$_EXTKEY] = [
     'author_company' => 'jambage.com',
     'constraints' => [
         'depends' => [
-            'typo3' => '9.5.0-11.5.99'
+            'typo3' => '10.4.0-12.5.99'
         ],
         'conflicts' => [
         ],
